@@ -1,6 +1,6 @@
 # Student CRUD - Spring Boot (Maven)
 
-Proyecto de ejemplo para el "Tercer Proyecto — CRUD de estudiantes".
+Un proyecto RESTful desarrollado en Spring Boot que permite gestionar estudiantes mediante operaciones CRUD para el "Proyecto Final".
 
 ## Requisitos
 - Java 17+
@@ -19,9 +19,18 @@ Proyecto de ejemplo para el "Tercer Proyecto — CRUD de estudiantes".
 - `PUT  /api/students/{id}` : actualizar
 - `DELETE /api/students/{id}` : eliminar
 
+## Probar en postman
+- Puedes importar estos endpoints manualmente o usar esta URL base:
+- http://localhost:8080/students
+
 ## Tests
 Ejecutar `mvn test`. Hay pruebas unitarias (service) y de integración ligera (controller con MockMvc).
 
 ## Estructura
 Sugerencia de paquetes: controller, service, repository, model, dto, exception, util.
+
+## Autores
+- Kevin Leandro Ramirez Arango
+- Kevin Andres Fuquen Morales
+- Proyecto Academico - Ingenieria de Software
 
